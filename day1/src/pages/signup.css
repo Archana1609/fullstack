@@ -1,0 +1,130 @@
+/* Fontawesome 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+.containerk {
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+}
+
+.left-section {
+    background: url('https://www.famoushouseboat.com/wp-content/uploads/2021/02/IMG_3952.jpg') no-repeat center center;
+    display: none;
+}
+
+.right-section {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container,
+.signup-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgb(10 75 90);
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-form h2,
+.signup-form h2 {
+    color: #ffb144;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.login-title i,
+.signup-title i {
+    margin-right: 10px;
+    color: #027186;
+}
+
+.form-control {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-control i {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+    color: #32495e;
+}
+
+.form-control input {
+    width: 100%;
+    max-width: 95%;
+    padding: 12px 0 12px 37px;
+    border: 2px solid #00569f1c;
+    background-color: rgb(232, 232, 232);
+    color: rgb(50, 73, 94);
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.form-control input:focus {
+    outline: none;
+    border: 2px solid #ffd8a1;
+}
+
+.form-control input:invalid:not(:focus):not(:placeholder-shown) {
+    border: 2px solid #ff3860;
+}
+
+/* Add other styles from the original CSS code */
+
+/*Responsive*/
+@media screen and (min-width: 768px) {
+    .left-section {
+        display: block;
+        /* Show the left section on larger screens */
+        flex: 1;
+    }
+}
+.signb{
+    width: 40%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffaa33;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 130px;
+}
+.lg{
+    width: 10;
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: right;
+    margin: 25px 300px;
+}
+
+button:hover {
+    background-color: #405d7d;
+}
+.b{
+    color: black;
+    
+
+}
+.form-con{
+    width: 30%;
+    margin: 10px 150px;
+}

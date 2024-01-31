@@ -1,0 +1,96 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-area{
+    background-image: url('https://www.americanoceans.org/wp-content/uploads/2023/06/bottom-of-the-ocean-1024x683.jpeg');
+    background-position: center center;
+    background-size:cover ;
+    /* -webkit-background-size:cover ; */
+    height: 100vh;
+    width: auto;
+    margin: auto;
+    /*image-rendering: pixelated;
+    filter: brightness(1.2) contrast(1.2);
+    background-attachment: fixed;*/
+    image-rendering: optimizeQuality;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin-top:30px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: violet;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'poppins' ,sans-serif;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color: rgb(199, 139, 255);
+}
+/* .logo{
+    height: 20%;
+    float: left;
+    color: azure;
+    list-style: none;
+    
+} */
+.banner-text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 10% 30%;
+    text-align: center;
+}
+.banner-text h1{
+    text-align: center;
+    color:rgb(3, 3, 58);
+    
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'poppins' , sans-serif;
+}
+.banner-text p{
+    color:black;
+    font-size: 18px;
+}
+.banner-text a{
+    border: 1px solid white;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color:white;
+}
+.banner-text a:hover{
+    background-color: white;
+    color: rgba(68, 25, 109, 0.623);
+    font-weight: bold;
+}
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
