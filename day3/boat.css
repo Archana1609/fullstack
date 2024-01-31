@@ -1,0 +1,118 @@
+.wrapper {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .top__header {
+    position: relative;
+    height: 45px;
+    padding: 10px;
+    background: #51D6FB; /* Use the desired background color */
+    color: #FFFFFF; /* Use the desired text color */
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .icon__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu__mobile {
+    display: block;
+  }
+  
+  .menu__desktop {
+    display: none;
+  }
+  
+  .desktop__menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .desktop__menu li {
+    cursor: pointer;
+    margin: 0 1rem;
+    padding: 2px 10px;
+  }
+  
+  .promo {
+    background: #D7493A; /* Use the desired background color */
+    border-radius: 5px;
+  }
+  
+  .h3 {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cards {
+    margin-top: 1rem;
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px; /* Adjust the grid gap as needed */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .card {
+    position: relative;
+    max-height: 340px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .card__img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card__details {
+    position: relative;
+    width: 100%;
+  }
+  
+  .price__l {
+    width: 100%;
+    text-align: right;
+  }
+  
+  .star img {
+    width: 14px;
+  }
+  
+  .price, .star {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price button {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #51D6FB; /* Use the desired background color */
+    color: #FFFFFF; /* Use the desired text color */
+  }
+  
+  .credit-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 10px;
+    text-align: right;
+  }
+  
