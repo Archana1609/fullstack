@@ -1,0 +1,56 @@
+.total {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+  }
+  
+  .about-section {
+    background: url('https://images.squarespace-cdn.com/content/v1/5d60b16bd9761100014fd548/1572233697239-WMTP5MZDSM53MKQ3DRKR/Tucker+Boathouse_0374.jpg?format=1500w') no-repeat left;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+  }
+  
+  .inner-cont {
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 70px;
+  }
+  
+  .inner-cont h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  .text {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  /* styles.css */
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  color: #555;
+}
